@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <base href="https://gaon.services/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0">
+  <meta name="description" content="가온사회서비스 재가복지센터">
+  <meta property="og:title" content="가온사회서비스 재가복지센터">
+  <meta property="og:description" content="방문요양, 재가복지, 사회서비스 안내">
+  <meta property="og:image" content="/assets/og-image.jpg">
+  <meta property="og:url" content="https://gaon.services">
+  <title>가온사회서비스 재가복지센터</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Noto Sans KR', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">가온사회서비스 재가복지센터</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="text-blue-600 hover:underline">홈</a>
+        <a href="#notice" class="text-blue-600 hover:underline">공지사항</a>
+        <a href="#service" class="text-blue-600 hover:underline">방문요양</a>
+        <a href="#contact" class="text-blue-600 hover:underline">문의/신청</a>
+        <a href="#map" class="text-blue-600 hover:underline">찾아오시는길</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6 space-y-12">
+    <section id="home" class="space-y-4">
+      <img src="/assets/main.jpg" alt="센터 소개 이미지" class="w-full rounded-lg shadow">
+      <p class="text-lg">가온사회서비스는 어르신의 삶의 질을 높이기 위한 맞춤형 방문요양 서비스를 제공합니다.</p>
+    </section>
+
+    <section id="notice" class="space-y-2">
+      <h2 class="text-xl font-semibold">📢 공지사항</h2>
+      <ul class="list-disc pl-6">
+        <li>2025년 상반기 요양보호사 모집</li>
+        <li>신규 방문요양 서비스 안내</li>
+      </ul>
+    </section>
+
+    <section id="service" class="space-y-2">
+      <h2 class="text-xl font-semibold">🧑‍⚕️ 방문요양 서비스</h2>
+      <p>가정 방문을 통한 맞춤형 케어와 지원 서비스를 제공합니다.</p>
+    </section>
+
+    <section id="contact" class="space-y-2">
+      <h2 class="text-xl font-semibold">📞 문의 및 신청</h2>
+      <p>전화: <a href="tel:0226481030" class="text-blue-600">02-2648-1030</a></p>
+      <p>블로그: <a href="https://blog.naver.com/gaonsscare2206" class="text-blue-600" target="_blank">블로그 바로가기</a></p>
+    </section>
+
+    <section id="map" class="space-y-2">
+      <h2 class="text-xl font-semibold">📍 찾아오시는 길</h2>
+      <p>서울시 양천구 목동중앙본로 113, 2동 3층 302호</p>
+      <iframe src="https://map.naver.com/v5/?c=14129544.5731976,4510656.4606423,16,0,0,0,dh" width="100%" height="300" class="rounded-lg border"></iframe>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-12 p-6 text-sm text-center text-gray-500">
+    <p>대표자: 김경희 | 사업자등록번호: 490-85-01946 | 전화: 02-2648-1030</p>
+    <p>ⓒ 2025 가온사회서비스 재가복지센터. All rights reserved.</p>
+  </footer>
+</body>
+</html>
